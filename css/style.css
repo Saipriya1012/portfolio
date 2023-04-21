@@ -9687,3 +9687,8 @@ iframe{
   border: none;
   background-color: black;
 }
+
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: pan-y !important;
+  touch-action: pan-y !important;
+}
